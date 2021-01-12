@@ -6,15 +6,14 @@
     "moduleResolution": "node",
     "jsx": "preserve",
     "baseUrl": "./",
-    /* paths - If you configure Snowpack import aliases, add them here. */
     "paths": {},
-    /* noEmit - Snowpack builds (emits) files, not tsc. */
     "noEmit": true,
-    /* LitElement - Add decorator support! */
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    /* Additional Options */
     "strict": true,
+    " ": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
