@@ -1,1 +1,2 @@
-import './app-root';
+import './button';
+import './tic-tac-toe';
